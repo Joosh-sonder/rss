@@ -4,11 +4,18 @@ Scrapes the MuggleNet HBO Harry Potter TV Series hub page and builds
 an RSS 2.0 feed from its "Latest HBO TV Series News" list.
 
 Output: docs/feed.xml  (served for free via GitHub Pages)
+
+Each item gets a stable pubDate: if we've seen that article link before
+(from a previous run), we reuse its original pubDate. Only genuinely new
+articles get stamped with the current time. This prevents old articles
+from being treated as "new" on every run.
 """
 
+import os
 import re
 import sys
-from datetime import datetime, timezone
+import xml.etree.ElementTree as ET
+from datetime import datetime, timedelta, timezone
 from email.utils import format_datetime
 from xml.sax.saxutils import escape
 
@@ -20,8 +27,7 @@ FEED_TITLE = "MuggleNet — HBO Harry Potter TV Series News"
 FEED_DESCRIPTION = "Latest news headlines from MuggleNet's HBO Harry Potter TV series hub page."
 OUTPUT_PATH = "docs/feed.xml"
 
-# You'll set this to your own GitHub Pages URL once it's live, e.g.
-# https://yourusername.github.io/mugglenet-rss/feed.xml
+# Your live GitHub Pages feed URL.
 SELF_URL = "https://joosh-sonder.github.io/rss/feed.xml"
 
 
@@ -34,9 +40,6 @@ def fetch_articles():
     articles = []
     seen_links = set()
 
-    # Article headlines on this page are <h3><a href="...">Title</a></h3>
-    # inside the "Latest HBO TV Series News" section. We grab all h3 links
-    # that point to a dated MuggleNet article (contains /20xx/ in the path).
     for h3 in soup.find_all("h3"):
         a = h3.find("a", href=True)
         if not a:
@@ -55,19 +58,46 @@ def fetch_articles():
     return articles
 
 
-def build_rss(articles):
-    now = format_datetime(datetime.now(timezone.utc))
+def load_existing_pubdates(path):
+    """Return {link: pubDate_string} from a previously-generated feed, if any."""
+    dates = {}
+    if not os.path.exists(path):
+        return dates
+    try:
+        tree = ET.parse(path)
+        root = tree.getroot()
+        for item in root.findall("./channel/item"):
+            link_el = item.find("link")
+            pubdate_el = item.find("pubDate")
+            if link_el is not None and pubdate_el is not None:
+                dates[link_el.text.strip()] = pubdate_el.text.strip()
+    except Exception as e:
+        print(f"Warning: could not parse existing feed for dates: {e}", file=sys.stderr)
+    return dates
+
+
+def build_rss(articles, existing_dates):
+    now = datetime.now(timezone.utc)
+    build_time = format_datetime(now)
 
     items_xml = []
-    for art in articles:
+    new_count = 0
+    for i, art in enumerate(articles):
+        link_plain = art["link"]
+        if link_plain in existing_dates:
+            pubdate_str = existing_dates[link_plain]
+        else:
+            pubdate_str = format_datetime(now - timedelta(seconds=i))
+            new_count += 1
+
         title = escape(art["title"])
-        link = escape(art["link"])
-        # Use the link as a stable GUID since no per-article date is scraped here.
+        link = escape(link_plain)
         items_xml.append(f"""
     <item>
       <title>{title}</title>
       <link>{link}</link>
       <guid isPermaLink="true">{link}</guid>
+      <pubDate>{pubdate_str}</pubDate>
     </item>""")
 
     rss = f"""<?xml version="1.0" encoding="UTF-8"?>
@@ -78,11 +108,12 @@ def build_rss(articles):
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="{escape(SELF_URL)}" rel="self" type="application/rss+xml" />
     <description>{escape(FEED_DESCRIPTION)}</description>
     <language>en-us</language>
-    <lastBuildDate>{now}</lastBuildDate>
+    <lastBuildDate>{build_time}</lastBuildDate>
     <generator>Custom scraper (build_feed.py)</generator>{''.join(items_xml)}
   </channel>
 </rss>
 """
+    print(f"{new_count} new article(s) this run.")
     return rss
 
 
@@ -92,9 +123,9 @@ def main():
         print("No articles found — page structure may have changed.", file=sys.stderr)
         sys.exit(1)
 
-    rss = build_rss(articles)
+    existing_dates = load_existing_pubdates(OUTPUT_PATH)
+    rss = build_rss(articles, existing_dates)
 
-    import os
     os.makedirs("docs", exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         f.write(rss)
