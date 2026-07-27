@@ -22,7 +22,7 @@ OUTPUT_PATH = "docs/feed.xml"
 
 # You'll set this to your own GitHub Pages URL once it's live, e.g.
 # https://yourusername.github.io/mugglenet-rss/feed.xml
-SELF_URL = "REPLACE_WITH_YOUR_GITHUB_PAGES_FEED_URL"
+SELF_URL = "https://joosh-sonder.github.io/rss/feed.xml"
 
 
 def fetch_articles():
