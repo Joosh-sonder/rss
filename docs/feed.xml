@@ -6,7 +6,7 @@
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://joosh-sonder.github.io/rss/feed.xml" rel="self" type="application/rss+xml" />
     <description>Latest news headlines from MuggleNet's HBO Harry Potter TV series hub page.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Aug 2026 09:56:08 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 10:29:24 +0000</lastBuildDate>
     <generator>Custom scraper (build_feed.py)</generator>
     <item>
       <title>HBO Is Taking Over Old Billingsgate for a Free Harry Potter Celebration</title>
