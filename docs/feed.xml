@@ -6,8 +6,14 @@
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://joosh-sonder.github.io/rss/feed.xml" rel="self" type="application/rss+xml" />
     <description>Latest news headlines from MuggleNet's HBO Harry Potter TV series hub page.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Aug 2026 17:37:23 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 18:02:33 +0000</lastBuildDate>
     <generator>Custom scraper (build_feed.py)</generator>
+    <item>
+      <title>Kit Harington Replaces Nicholas Hoult as Gilderoy Lockhart in HBO’s “Harry Potter”</title>
+      <link>https://mugglenet.com/2026/08/kit-harington-gilderoy-lockhart-harry-potter-hbo/</link>
+      <guid isPermaLink="true">https://mugglenet.com/2026/08/kit-harington-gilderoy-lockhart-harry-potter-hbo/</guid>
+      <pubDate>Mon, 24 Aug 2026 18:02:33 +0000</pubDate>
+    </item>
     <item>
       <title>HBO Is Taking Over Old Billingsgate for a Free Harry Potter Celebration</title>
       <link>https://mugglenet.com/2026/08/hbo-harry-potter-back-to-hogwarts-london-event/</link>
@@ -73,12 +79,6 @@
       <link>https://mugglenet.com/2026/05/hbo-renews-harry-potter-series-for-season-2-ahead-of-first-season-premiere/</link>
       <guid isPermaLink="true">https://mugglenet.com/2026/05/hbo-renews-harry-potter-series-for-season-2-ahead-of-first-season-premiere/</guid>
       <pubDate>Mon, 27 Jul 2026 06:18:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lox Pratt Says HBO’s Draco Malfoy Will Be “Very Different” from the Films</title>
-      <link>https://mugglenet.com/2026/05/lox-pratt-says-hbos-draco-malfoy-will-be-very-different-from-the-films/</link>
-      <guid isPermaLink="true">https://mugglenet.com/2026/05/lox-pratt-says-hbos-draco-malfoy-will-be-very-different-from-the-films/</guid>
-      <pubDate>Mon, 27 Jul 2026 06:18:36 +0000</pubDate>
     </item>
   </channel>
 </rss>
