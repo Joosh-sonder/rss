@@ -6,8 +6,14 @@
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://joosh-sonder.github.io/rss/feed.xml" rel="self" type="application/rss+xml" />
     <description>Latest news headlines from MuggleNet's HBO Harry Potter TV series hub page.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Aug 2026 07:39:56 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 15:28:07 +0000</lastBuildDate>
     <generator>Custom scraper (build_feed.py)</generator>
+    <item>
+      <title>HBO’s New Hogwarts House Crests Get Their Clearest Look Yet</title>
+      <link>https://mugglenet.com/2026/08/hbo-harry-potter-new-hogwarts-house-crests/</link>
+      <guid isPermaLink="true">https://mugglenet.com/2026/08/hbo-harry-potter-new-hogwarts-house-crests/</guid>
+      <pubDate>Mon, 31 Aug 2026 15:28:07 +0000</pubDate>
+    </item>
     <item>
       <title>Kit Harington Replaces Nicholas Hoult as Gilderoy Lockhart in HBO’s “Harry Potter”</title>
       <link>https://mugglenet.com/2026/08/kit-harington-gilderoy-lockhart-harry-potter-hbo/</link>
@@ -73,12 +79,6 @@
       <link>https://mugglenet.com/2026/05/hbo-reportedly-adds-tracking-measures-after-props-go-missing-from-harry-potter-set/</link>
       <guid isPermaLink="true">https://mugglenet.com/2026/05/hbo-reportedly-adds-tracking-measures-after-props-go-missing-from-harry-potter-set/</guid>
       <pubDate>Mon, 27 Jul 2026 06:18:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>HBO Renews “Harry Potter” Series for Season 2 Ahead of First Season Premiere</title>
-      <link>https://mugglenet.com/2026/05/hbo-renews-harry-potter-series-for-season-2-ahead-of-first-season-premiere/</link>
-      <guid isPermaLink="true">https://mugglenet.com/2026/05/hbo-renews-harry-potter-series-for-season-2-ahead-of-first-season-premiere/</guid>
-      <pubDate>Mon, 27 Jul 2026 06:18:37 +0000</pubDate>
     </item>
   </channel>
 </rss>
