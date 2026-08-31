@@ -6,8 +6,14 @@
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://joosh-sonder.github.io/rss/feed.xml" rel="self" type="application/rss+xml" />
     <description>Latest news headlines from MuggleNet's HBO Harry Potter TV series hub page.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Aug 2026 15:28:07 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 21:00:09 +0000</lastBuildDate>
     <generator>Custom scraper (build_feed.py)</generator>
+    <item>
+      <title>Harry Potter Sorting Hat Announcement Teased for Back to Hogwarts Showcase</title>
+      <link>https://mugglenet.com/2026/08/harry-potter-sorting-hat-back-to-hogwarts-teaser/</link>
+      <guid isPermaLink="true">https://mugglenet.com/2026/08/harry-potter-sorting-hat-back-to-hogwarts-teaser/</guid>
+      <pubDate>Mon, 31 Aug 2026 21:00:09 +0000</pubDate>
+    </item>
     <item>
       <title>HBO’s New Hogwarts House Crests Get Their Clearest Look Yet</title>
       <link>https://mugglenet.com/2026/08/hbo-harry-potter-new-hogwarts-house-crests/</link>
@@ -73,12 +79,6 @@
       <link>https://mugglenet.com/2026/05/hbos-harry-potter-series-will-recast-ginny-weasley-ahead-of-season-2/</link>
       <guid isPermaLink="true">https://mugglenet.com/2026/05/hbos-harry-potter-series-will-recast-ginny-weasley-ahead-of-season-2/</guid>
       <pubDate>Mon, 27 Jul 2026 06:18:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>HBO Reportedly Adds Tracking Measures After Props Go Missing From “Harry Potter” Set</title>
-      <link>https://mugglenet.com/2026/05/hbo-reportedly-adds-tracking-measures-after-props-go-missing-from-harry-potter-set/</link>
-      <guid isPermaLink="true">https://mugglenet.com/2026/05/hbo-reportedly-adds-tracking-measures-after-props-go-missing-from-harry-potter-set/</guid>
-      <pubDate>Mon, 27 Jul 2026 06:18:38 +0000</pubDate>
     </item>
   </channel>
 </rss>
