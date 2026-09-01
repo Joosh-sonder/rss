@@ -6,8 +6,20 @@
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://joosh-sonder.github.io/rss/feed.xml" rel="self" type="application/rss+xml" />
     <description>Latest news headlines from MuggleNet's HBO Harry Potter TV series hub page.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Sep 2026 10:24:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 18:24:57 +0000</lastBuildDate>
     <generator>Custom scraper (build_feed.py)</generator>
+    <item>
+      <title>New LEGO Sets Based on HBO’s Harry Potter Series Are Coming Soon</title>
+      <link>https://mugglenet.com/2026/09/hbo-harry-potter-lego-sets-coming/</link>
+      <guid isPermaLink="true">https://mugglenet.com/2026/09/hbo-harry-potter-lego-sets-coming/</guid>
+      <pubDate>Tue, 01 Sep 2026 18:24:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hidden Details Discovered in HBO’s New Harry Potter House Crests</title>
+      <link>https://mugglenet.com/2026/09/hbo-harry-potter-house-crests-hidden-secrets-harry-wand/</link>
+      <guid isPermaLink="true">https://mugglenet.com/2026/09/hbo-harry-potter-house-crests-hidden-secrets-harry-wand/</guid>
+      <pubDate>Tue, 01 Sep 2026 18:24:56 +0000</pubDate>
+    </item>
     <item>
       <title>Harry Potter Sorting Hat Announcement Teased for Back to Hogwarts Showcase</title>
       <link>https://mugglenet.com/2026/08/harry-potter-sorting-hat-back-to-hogwarts-teaser/</link>
@@ -67,18 +79,6 @@
       <link>https://mugglenet.com/2026/06/hbos-harry-potter-series-is-looking-for-its-colin-creevey/</link>
       <guid isPermaLink="true">https://mugglenet.com/2026/06/hbos-harry-potter-series-is-looking-for-its-colin-creevey/</guid>
       <pubDate>Mon, 27 Jul 2026 06:18:41 +0000</pubDate>
-    </item>
-    <item>
-      <title>Quidditch Will Look Very Different in HBO’s “Harry Potter” Series</title>
-      <link>https://mugglenet.com/2026/05/quidditch-different-hbo-harry-potter-series/</link>
-      <guid isPermaLink="true">https://mugglenet.com/2026/05/quidditch-different-hbo-harry-potter-series/</guid>
-      <pubDate>Mon, 27 Jul 2026 06:18:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>HBO’s Harry Potter Series Will Recast Ginny Weasley Ahead of Season 2</title>
-      <link>https://mugglenet.com/2026/05/hbos-harry-potter-series-will-recast-ginny-weasley-ahead-of-season-2/</link>
-      <guid isPermaLink="true">https://mugglenet.com/2026/05/hbos-harry-potter-series-will-recast-ginny-weasley-ahead-of-season-2/</guid>
-      <pubDate>Mon, 27 Jul 2026 06:18:39 +0000</pubDate>
     </item>
   </channel>
 </rss>
