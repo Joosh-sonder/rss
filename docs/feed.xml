@@ -6,8 +6,14 @@
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://joosh-sonder.github.io/rss/feed.xml" rel="self" type="application/rss+xml" />
     <description>Latest news headlines from MuggleNet's HBO Harry Potter TV series hub page.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Sep 2026 14:15:48 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 17:56:07 +0000</lastBuildDate>
     <generator>Custom scraper (build_feed.py)</generator>
+    <item>
+      <title>New “Harry Potter” Trailer Offers Biggest Look Yet at HBO Series</title>
+      <link>https://mugglenet.com/2026/09/hbo-harry-potter-new-trailer/</link>
+      <guid isPermaLink="true">https://mugglenet.com/2026/09/hbo-harry-potter-new-trailer/</guid>
+      <pubDate>Wed, 02 Sep 2026 17:56:07 +0000</pubDate>
+    </item>
     <item>
       <title>First Full Trailer for HBO’s Harry Potter Arrives Tomorrow</title>
       <link>https://mugglenet.com/2026/09/hbo-harry-potter-full-trailer-september-2/</link>
@@ -73,12 +79,6 @@
       <link>https://mugglenet.com/2026/06/nick-frost-hagrid-hbo-harry-potter-series/</link>
       <guid isPermaLink="true">https://mugglenet.com/2026/06/nick-frost-hagrid-hbo-harry-potter-series/</guid>
       <pubDate>Mon, 27 Jul 2026 06:18:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>Peter Serafinowicz Cast as Peeves in HBO’s “Harry Potter” Series</title>
-      <link>https://mugglenet.com/2026/06/peter-serafinowicz-peeves-harry-potter-series/</link>
-      <guid isPermaLink="true">https://mugglenet.com/2026/06/peter-serafinowicz-peeves-harry-potter-series/</guid>
-      <pubDate>Mon, 27 Jul 2026 06:18:42 +0000</pubDate>
     </item>
   </channel>
 </rss>
