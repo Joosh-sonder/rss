@@ -6,8 +6,14 @@
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://joosh-sonder.github.io/rss/feed.xml" rel="self" type="application/rss+xml" />
     <description>Latest news headlines from MuggleNet's HBO Harry Potter TV series hub page.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Sep 2026 13:29:05 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 16:59:47 +0000</lastBuildDate>
     <generator>Custom scraper (build_feed.py)</generator>
+    <item>
+      <title>HBO’s “Harry Potter” Casts Dobby, Tom Riddle and a New Ginny Weasley for Season 2</title>
+      <link>https://mugglenet.com/2026/09/hbo-harry-potter-casts-dobby-tom-riddle-ginny-weasley/</link>
+      <guid isPermaLink="true">https://mugglenet.com/2026/09/hbo-harry-potter-casts-dobby-tom-riddle-ginny-weasley/</guid>
+      <pubDate>Fri, 04 Sep 2026 16:59:47 +0000</pubDate>
+    </item>
     <item>
       <title>New “Harry Potter” Trailer Offers Biggest Look Yet at HBO Series</title>
       <link>https://mugglenet.com/2026/09/hbo-harry-potter-new-trailer/</link>
@@ -73,12 +79,6 @@
       <link>https://mugglenet.com/2026/07/harry-potter-tv-series-visual-style-cinematographer/</link>
       <guid isPermaLink="true">https://mugglenet.com/2026/07/harry-potter-tv-series-visual-style-cinematographer/</guid>
       <pubDate>Mon, 27 Jul 2026 06:18:44 +0000</pubDate>
-    </item>
-    <item>
-      <title>Nick Frost Knows His Hagrid in the New “Harry Potter” Series May Take Some Getting Used To</title>
-      <link>https://mugglenet.com/2026/06/nick-frost-hagrid-hbo-harry-potter-series/</link>
-      <guid isPermaLink="true">https://mugglenet.com/2026/06/nick-frost-hagrid-hbo-harry-potter-series/</guid>
-      <pubDate>Mon, 27 Jul 2026 06:18:43 +0000</pubDate>
     </item>
   </channel>
 </rss>
