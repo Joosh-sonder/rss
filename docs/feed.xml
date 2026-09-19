@@ -6,8 +6,14 @@
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://joosh-sonder.github.io/rss/feed.xml" rel="self" type="application/rss+xml" />
     <description>Latest news headlines from MuggleNet's HBO Harry Potter TV series hub page.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Sep 2026 13:21:50 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 16:36:14 +0000</lastBuildDate>
     <generator>Custom scraper (build_feed.py)</generator>
+    <item>
+      <title>Hans Zimmer Wants HBO’s “Harry Potter” to Sound Different from the Films</title>
+      <link>https://mugglenet.com/2026/09/hans-zimmer-hbo-harry-potter-music-different-movies/</link>
+      <guid isPermaLink="true">https://mugglenet.com/2026/09/hans-zimmer-hbo-harry-potter-music-different-movies/</guid>
+      <pubDate>Sat, 19 Sep 2026 16:36:14 +0000</pubDate>
+    </item>
     <item>
       <title>Rafe Spall, Molly Hewitt-Richards, and Jasper Ambrose Join HBO’s “Harry Potter” Season 2</title>
       <link>https://mugglenet.com/2026/09/harry-potter-hbo-season-2-arthur-weasley-moaning-myrtle-colin-creevey/</link>
@@ -73,12 +79,6 @@
       <link>https://mugglenet.com/2026/08/hbo-harry-potter-back-to-hogwarts-london-event/</link>
       <guid isPermaLink="true">https://mugglenet.com/2026/08/hbo-harry-potter-back-to-hogwarts-london-event/</guid>
       <pubDate>Mon, 17 Aug 2026 15:10:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>“Celebrity Is as Celebrity Does”: Nicholas Hoult Is HBO’s Gilderoy Lockhart</title>
-      <link>https://mugglenet.com/2026/08/nicholas-hoult-gilderoy-lockhart-hbo-harry-potter/</link>
-      <guid isPermaLink="true">https://mugglenet.com/2026/08/nicholas-hoult-gilderoy-lockhart-hbo-harry-potter/</guid>
-      <pubDate>Tue, 11 Aug 2026 23:00:22 +0000</pubDate>
     </item>
   </channel>
 </rss>
