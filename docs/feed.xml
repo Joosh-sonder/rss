@@ -6,7 +6,7 @@
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://joosh-sonder.github.io/rss/feed.xml" rel="self" type="application/rss+xml" />
     <description>Latest news headlines from MuggleNet's HBO Harry Potter TV series hub page.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Sep 2026 21:54:04 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 23:47:35 +0000</lastBuildDate>
     <generator>Custom scraper (build_feed.py)</generator>
     <item>
       <title>Hans Zimmer Wants HBO’s “Harry Potter” to Sound Different from the Films</title>
