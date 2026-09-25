@@ -6,8 +6,14 @@
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://joosh-sonder.github.io/rss/feed.xml" rel="self" type="application/rss+xml" />
     <description>Latest news headlines from MuggleNet's HBO Harry Potter TV series hub page.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Sep 2026 09:54:02 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 14:56:06 +0000</lastBuildDate>
     <generator>Custom scraper (build_feed.py)</generator>
+    <item>
+      <title>The First HBO ‘Harry Potter’ TV Series Merchandise Has Officially Arrived</title>
+      <link>https://mugglenet.com/2026/09/hbo-harry-potter-series-first-merchandise/</link>
+      <guid isPermaLink="true">https://mugglenet.com/2026/09/hbo-harry-potter-series-first-merchandise/</guid>
+      <pubDate>Fri, 25 Sep 2026 14:56:06 +0000</pubDate>
+    </item>
     <item>
       <title>Hans Zimmer Wants HBO’s “Harry Potter” to Sound Different from the Films</title>
       <link>https://mugglenet.com/2026/09/hans-zimmer-hbo-harry-potter-music-different-movies/</link>
@@ -73,12 +79,6 @@
       <link>https://mugglenet.com/2026/08/kit-harington-gilderoy-lockhart-harry-potter-hbo/</link>
       <guid isPermaLink="true">https://mugglenet.com/2026/08/kit-harington-gilderoy-lockhart-harry-potter-hbo/</guid>
       <pubDate>Mon, 24 Aug 2026 18:02:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>HBO Is Taking Over Old Billingsgate for a Free Harry Potter Celebration</title>
-      <link>https://mugglenet.com/2026/08/hbo-harry-potter-back-to-hogwarts-london-event/</link>
-      <guid isPermaLink="true">https://mugglenet.com/2026/08/hbo-harry-potter-back-to-hogwarts-london-event/</guid>
-      <pubDate>Mon, 17 Aug 2026 15:10:48 +0000</pubDate>
     </item>
   </channel>
 </rss>
