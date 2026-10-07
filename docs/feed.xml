@@ -6,8 +6,14 @@
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://joosh-sonder.github.io/rss/feed.xml" rel="self" type="application/rss+xml" />
     <description>Latest news headlines from MuggleNet's HBO Harry Potter TV series hub page.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Oct 2026 13:31:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 19:28:58 +0000</lastBuildDate>
     <generator>Custom scraper (build_feed.py)</generator>
+    <item>
+      <title>Harry Potter Is Taking Over Oxford Street for Christmas</title>
+      <link>https://mugglenet.com/2026/10/harry-potter-christmas-lights-oxford-street/</link>
+      <guid isPermaLink="true">https://mugglenet.com/2026/10/harry-potter-christmas-lights-oxford-street/</guid>
+      <pubDate>Wed, 07 Oct 2026 19:28:58 +0000</pubDate>
+    </item>
     <item>
       <title>What Does the Paramount-Warner Bros. Merger Mean for Harry Potter?</title>
       <link>https://mugglenet.com/2026/10/paramount-warner-bros-merger-harry-potter-future/</link>
@@ -73,12 +79,6 @@
       <link>https://mugglenet.com/2026/08/harry-potter-sorting-hat-back-to-hogwarts-teaser/</link>
       <guid isPermaLink="true">https://mugglenet.com/2026/08/harry-potter-sorting-hat-back-to-hogwarts-teaser/</guid>
       <pubDate>Mon, 31 Aug 2026 21:00:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>HBO’s New Hogwarts House Crests Get Their Clearest Look Yet</title>
-      <link>https://mugglenet.com/2026/08/hbo-harry-potter-new-hogwarts-house-crests/</link>
-      <guid isPermaLink="true">https://mugglenet.com/2026/08/hbo-harry-potter-new-hogwarts-house-crests/</guid>
-      <pubDate>Mon, 31 Aug 2026 15:28:07 +0000</pubDate>
     </item>
   </channel>
 </rss>
