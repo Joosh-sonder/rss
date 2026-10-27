@@ -6,8 +6,14 @@
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://joosh-sonder.github.io/rss/feed.xml" rel="self" type="application/rss+xml" />
     <description>Latest news headlines from MuggleNet's HBO Harry Potter TV series hub page.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Oct 2026 14:11:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 19:26:15 +0000</lastBuildDate>
     <generator>Custom scraper (build_feed.py)</generator>
+    <item>
+      <title>HBO’s “Harry Potter” Just Cast Three More Characters, Including One the Movies Left Out</title>
+      <link>https://mugglenet.com/2026/10/harry-potter-hbo-casts-james-lily-potter-charlie-weasley/</link>
+      <guid isPermaLink="true">https://mugglenet.com/2026/10/harry-potter-hbo-casts-james-lily-potter-charlie-weasley/</guid>
+      <pubDate>Tue, 27 Oct 2026 19:26:15 +0000</pubDate>
+    </item>
     <item>
       <title>Harry Potter Is Taking Over Oxford Street for Christmas</title>
       <link>https://mugglenet.com/2026/10/harry-potter-christmas-lights-oxford-street/</link>
@@ -73,12 +79,6 @@
       <link>https://mugglenet.com/2026/09/hbo-harry-potter-house-crests-hidden-secrets-harry-wand/</link>
       <guid isPermaLink="true">https://mugglenet.com/2026/09/hbo-harry-potter-house-crests-hidden-secrets-harry-wand/</guid>
       <pubDate>Tue, 01 Sep 2026 18:24:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>Harry Potter Sorting Hat Announcement Teased for Back to Hogwarts Showcase</title>
-      <link>https://mugglenet.com/2026/08/harry-potter-sorting-hat-back-to-hogwarts-teaser/</link>
-      <guid isPermaLink="true">https://mugglenet.com/2026/08/harry-potter-sorting-hat-back-to-hogwarts-teaser/</guid>
-      <pubDate>Mon, 31 Aug 2026 21:00:09 +0000</pubDate>
     </item>
   </channel>
 </rss>
