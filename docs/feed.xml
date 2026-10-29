@@ -6,8 +6,14 @@
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://joosh-sonder.github.io/rss/feed.xml" rel="self" type="application/rss+xml" />
     <description>Latest news headlines from MuggleNet's HBO Harry Potter TV series hub page.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Oct 2026 11:45:33 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 17:35:03 +0000</lastBuildDate>
     <generator>Custom scraper (build_feed.py)</generator>
+    <item>
+      <title>HBO Reveals New ‘Harry Potter’ Poster Featuring First Look at Hogwarts Castle</title>
+      <link>https://mugglenet.com/2026/10/harry-potter-hbo-poster-first-look-hogwarts-castle/</link>
+      <guid isPermaLink="true">https://mugglenet.com/2026/10/harry-potter-hbo-poster-first-look-hogwarts-castle/</guid>
+      <pubDate>Thu, 29 Oct 2026 17:35:03 +0000</pubDate>
+    </item>
     <item>
       <title>HBO’s “Harry Potter” Just Cast Three More Characters, Including One the Movies Left Out</title>
       <link>https://mugglenet.com/2026/10/harry-potter-hbo-casts-james-lily-potter-charlie-weasley/</link>
@@ -73,12 +79,6 @@
       <link>https://mugglenet.com/2026/09/hbo-harry-potter-lego-sets-coming/</link>
       <guid isPermaLink="true">https://mugglenet.com/2026/09/hbo-harry-potter-lego-sets-coming/</guid>
       <pubDate>Tue, 01 Sep 2026 18:24:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hidden Details Discovered in HBO’s New Harry Potter House Crests</title>
-      <link>https://mugglenet.com/2026/09/hbo-harry-potter-house-crests-hidden-secrets-harry-wand/</link>
-      <guid isPermaLink="true">https://mugglenet.com/2026/09/hbo-harry-potter-house-crests-hidden-secrets-harry-wand/</guid>
-      <pubDate>Tue, 01 Sep 2026 18:24:56 +0000</pubDate>
     </item>
   </channel>
 </rss>
